@@ -1,0 +1,17 @@
+Package: cramp
+Title: Covariance Matrix Testing using Random Projections
+Version: 0.1.1
+Authors@R:
+    person(given = "Deepak Nag",
+           family = "Ayyala",
+           role = c("aut", "cre"),
+           email = "dayyala@augusta.edu",
+           comment = c(ORCID = "0000-0002-7251-580X"))
+Description: Random-projection based hypothesis tests for the covariance matrix of high-dimensional variables. Provides functions to perform tests for uniformity and sphericity (one-sample tests) and comparing two covariance matrices.
+Depends: R (>= 3.1.0), stats
+Imports: mvtnorm, ismev, doParallel, foreach
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
