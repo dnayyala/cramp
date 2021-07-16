@@ -1,6 +1,6 @@
 Package: cramp
 Title: Covariance Matrix Testing using Random Projections
-Version: 0.1.1
+Version: 0.1.2
 Authors@R:
     person(given = "Deepak Nag",
            family = "Ayyala",

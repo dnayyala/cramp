@@ -5,7 +5,7 @@ nulldist.onesample <- function(n, p, m = 1, nnull = 1e2, nrep = 1e2, mean = NULL
 
     #' @import foreach parallel doParallel mvtnorm
     NULL
-    #' @export
+    #' @export ortho_randproj.R lrt_tests.R lw_statistics.R john_nagao_tests.R
 
     #' @param n sample size of your data
     #' @param p original dimension of your data
@@ -64,7 +64,8 @@ nulldist.onesample <- function(n, p, m = 1, nnull = 1e2, nrep = 1e2, mean = NULL
         }
         stopCluster(parclust)
     } else {
-        sapply(c("ortho_randproj.R", "lrt_tests.R", "lw_statistics.R", "john_nagao_tests.R"), source)
+        # sapply(c("ortho_randproj.R", "lrt_tests.R", "lw_statistics.R", "john_nagao_tests.R"), source)
+        library(cramp)
         pvalue.null <- matrix(0, nrow = nnull, ncol = 3)
         for (i in 1:nnull){
             # X <- rmvnorm(n = n, mean = mean, sigma = diag(p));
