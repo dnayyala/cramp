@@ -14,4 +14,4 @@ To install the package, run the following commands:
 ```install_github("dnayyala/cramp")```
 ## References
 
-Ayyala, D. N., Ghosh, S. and Linder, D. F., *Covariance matrix testing in high dimension using random projects*, **Need to add the arxiv link**
+Ayyala, D. N., Ghosh, S. and Linder, D. F., *Covariance matrix testing in high dimension using random projects*, **Computational Statistics**, *37, 1111–1141 (2022)*. [Download](https://doi.org/10.1007/s00180-021-01166-4)
